@@ -73,6 +73,7 @@ nav a {
     background-color: rgb(54, 54, 54);
 }
 
+
 .joinbtn {
     margin-left: 20px;
     display: inline-block;
@@ -92,8 +93,12 @@ nav a {
     transition: box-shadow 0.2s cubic-bezier(0.4, 0.0, 0.2, 1), background 0.2s cubic-bezier(0.4, 0.0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0.0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0.0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
 .holder{
-    overflow: scroll;
       background-image: linear-gradient(230deg,  #e7733a, #f16046, #f74b57, #f9346b, #f51a82);
       height: 100%;
        width: 100%;
@@ -122,4 +127,10 @@ nav a {
     width: 100%;
     display: flex;
     margin-top: -400px;
+}
+.middle{
+    background-color: #333333;
+    height: 100%;
+    width: 100%;
+    display: flex;
 }

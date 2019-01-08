@@ -1,4 +1,4 @@
-<html>  
+  <html>  
     <head>
         <title>
             Mockup For Gays!
@@ -30,11 +30,37 @@
        </nav>
         <div class="holder">
           <div class="center">
-              <img src="conco3.jpg" alt="404">
+              <img draggable="false" src="conco3.jpg" alt="404">
               <h1>Conco</h1>   
         </div>
     </div>
-            <canvas id="statshead"></canvas>    
+            <canvas id="statshead"></canvas> 
+            <div class="middle">
+              <div class="middle2">
+
+
+              </div>
+            </div>  
+
+
+
+
+
+
+
+
+
+
+        <script>
+        
+        $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+        
+        </script>
 
 
         <script>
