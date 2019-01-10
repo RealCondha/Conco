@@ -94,14 +94,14 @@ nav a {
 }
 .holder{
       background-image: linear-gradient(230deg,  #e7733a, #f16046, #f74b57, #f9346b, #f51a82);
-      height: 129%  ;
+      height: 100%  ;
        width: 100%;
        display: flex;
 }
 
 .center{
     margin: auto;
-    margin-bottom: 550px;
+    
 }
 
 .center img{
@@ -117,11 +117,10 @@ nav a {
 }
 
 #statshead {
-    height: 170px;
+    height: 600px;
     width: 100%;
     display: flex;
     margin-top: -400px;
-    
 }
 .undercan{
     background-color: #171717;
