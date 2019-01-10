@@ -1,13 +1,14 @@
   <html>  
     <head>
         <title>
-            Mockup For Gays!
+            Conco
         </title>
+        <link rel="icon" href="conco31.png"> 
         <link rel="stylesheet" href="style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-       <nav>
+       <nav id="header">
            <div class="logo">
                 <a id="la" href="#" draggable="false">
                     <img id="logo" draggable="false" src="Discord-Wordmark-White.svg">
@@ -35,12 +36,12 @@
         </div>
     </div>
             <canvas id="statshead"></canvas> 
-            <div class="middle">
-              <div class="middle2">
-
-
+            <div class="undercan">
+              <div id="stats">
+              <h1>55</h1>
+              <h2>Servers</h1>
               </div>
-            </div>  
+            </div>
 
 
 
@@ -51,16 +52,8 @@
 
 
 
-        <script>
-        
-        $(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
-        
-        </script>
+
+
 
 
         <script>
@@ -160,7 +153,7 @@
                   ctx.lineTo(-opt.range.x - opt.thickness, ch + opt.thickness);
                   ctx.lineTo(cw + opt.range.x + opt.thickness, ch + opt.thickness);
                   ctx.closePath();
-                  ctx.fillStyle = '#333333  ';
+                  ctx.fillStyle = '#171717';
                   ctx.fill();
                 };
                 var clear = function(){
