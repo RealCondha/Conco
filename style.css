@@ -117,21 +117,24 @@ nav a {
 }
 
 #statshead {
-    height: 600px;
+    height: 250px;
+    margin-top: -158px;
     width: 100%;
-    display: flex;
-    margin-top: -400px;
+  
+  
 }
 .undercan{
     background-color: #171717;
+    display: flex;
+    z-index: 2;
     width: 100%;
     padding-bottom: 50px;
-    margin-top: -3px;
+    margin-top: -13px;
+
 }
 
 #stats{
-    margin: 12px;
-    margin-left: 50px;
+    margin: auto;
     border-radius: 40px;
     background-color: #242424;
     display: inline-block;
@@ -141,7 +144,19 @@ nav a {
     border: 3px solid #404040;
     text-align: center;
     z-index: 3;
-  
+  transition: border 150ms cubic-bezier(0.4, 0.0, 0.2, 1);
 
 }
 
+#stats:hover {
+    border: 3px solid #8d8b8b;
+  }
+  #stats h1 {
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  #stats h2 {
+    margin-top: -12px;
+    text-transform: uppercase;
+    color: #bebebe;
+  }
