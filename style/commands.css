@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #fff;
+}
+
+#header {
+  width: 100%;
+  background: #000;
+  height: 10%;
+  color: #fff;
+}
+
+#container {
+  position: absolute;
+  width: 100%;
+}
+
+tr td {
+  width: 50%;
+  position: relative;
+}
+
+tr td:first-child {
+  width: 25%;
+  height: 100%;
+}
+
+tr td:last-child {
+width: 25%;
+}
+
+.item {
+  margin: 10px;
+  background: gray;
+  height: 100%;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+}
+
+tr {
+
+}
+
+td {
+  height: 100%;
+}
+
+iframe {
+  width: auto;
+  padding: 10px;
+  height: 500px;
+  margin: 0;
+}
